@@ -7,6 +7,7 @@
 html {
   box-sizing: border-box;
   background-color: var(--background);
+  font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 :root{
@@ -43,25 +44,50 @@ font-family: 'Barlow Semi Condensed', sans-serif;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    justify-items: center;
+    grid-gap: 20px;
+    grid-template-areas: "daniel daniel jonathan kira"
+                          "jeanette patrick patrick kira";
+    padding: 6rem;
+                          
 }
 
 
 .grid-item-daniel{
     background-color: var(--backdaniel);
+    border-radius: 10px;
+    grid-area: daniel;
+    
 }
 
 .grid-item-jonathan{
     background-color: var(--backjonathan);
+    border-radius: 10px;
+    grid-area: jonathan;
 }
 
-.grid-item-jeanette,
 .grid-item-kira {
     background-color: var(--white);
+    border-radius: 10px;
+    grid-area: kira;
 }
+
+.grid-item-jeanette {
+    background-color: var(--white);
+    border-radius: 10px;
+    grid-area: jeanette;
+}
+
 
 .grid-item-patrick {
     background-color: var(--backpatrick);
+    border-radius: 10px;
+    grid-area: patrick;
+}
+
+.grid-item-daniel,
+.grid-item-jonathan,
+.grid-item-patrick {
+    color: var(--white);
 }
 
 
@@ -74,16 +100,16 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 .attribution {
     text-align: center;
     font-family: "Courier New", Courier, monospace;
-    color: var(--darkcyan);
-    padding: 2rem 1rem;
+    color: black;
+    padding: 1rem;
 }
 
 
 .attribution a {
   text-decoration: none;
-  color: var(--softred);
+  color: var(--backdaniel);
 }
 
 .attribution a:hover {
-  color: var(--darkcyan);
+  color: var(--backpatrick);
 }
