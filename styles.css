@@ -53,6 +53,7 @@ font-family: 'Barlow Semi Condensed', sans-serif;
     background-color: var(--backdaniel);
     border-radius: 10px;
     grid-area: daniel;
+    box-shadow: 21px 32px 38px -30px rgba(0,0,0,0.75);
     
 }
 
@@ -60,18 +61,21 @@ font-family: 'Barlow Semi Condensed', sans-serif;
     background-color: var(--backjonathan);
     border-radius: 10px;
     grid-area: jonathan;
+    box-shadow: 21px 32px 38px -30px rgba(0,0,0,0.75);
 }
 
 .grid-item-kira {
     background-color: var(--white);
     border-radius: 10px;
     grid-area: kira;
+    box-shadow: 21px 32px 38px -30px rgba(0,0,0,0.75);
 }
 
 .grid-item-jeanette {
     background-color: var(--white);
     border-radius: 10px;
     grid-area: jeanette;
+    box-shadow: 21px 32px 38px -30px rgba(0,0,0,0.75);
 }
 
 
@@ -79,6 +83,7 @@ font-family: 'Barlow Semi Condensed', sans-serif;
     background-color: var(--backpatrick);
     border-radius: 10px;
     grid-area: patrick;
+    box-shadow: 21px 32px 38px -30px rgba(0,0,0,0.75);
 }
 
 .grid-item-daniel,
