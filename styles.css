@@ -122,17 +122,23 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 h3 {
-    padding-right: 4.5rem;
+    padding-right: 4.9rem;
 }
 
 .testimonial {
     padding-top: 1rem;
     padding-right: 1.5rem;
-    line-height: 1.4;
+    line-height: 1.5;
     font-size: 0.9em;
 }
 
+.grid-item-jeanette h3 {
+    padding-right: 5.5rem;
+}
 
+.grid-item-jeanette .testimonial {
+    padding-right: 2.5rem;
+}
 
 
 
