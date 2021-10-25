@@ -54,6 +54,10 @@ font-family: 'Barlow Semi Condensed', sans-serif;
     border-radius: 10px;
     grid-area: daniel;
     box-shadow: 21px 32px 38px -30px rgba(0,0,0,0.75);
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: right 15%;
+    background-size: 25%;
     
 }
 
@@ -137,6 +141,7 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 
 h3 {
     padding-right: 4.9rem;
+    word-spacing: 3px;
 }
 
 .testimonial {
